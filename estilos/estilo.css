@@ -16,10 +16,11 @@ header{
     align-content: center;
     gap: 100px;
     flex-wrap: wrap;    
-    background: red;
+    background: black;
 }
 a{
     text-decoration: none;
+    color: black;
 }
 .botones{
     display: flex;
@@ -29,6 +30,9 @@ a{
     align-items: center;
     border-radius: 20px;
     background: black;
+}
+.botones a:hover{
+    color: #EF233C;
 }
 .botones a{
     color: #FFF;
@@ -58,4 +62,47 @@ a{
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 40px;
+}
+
+.fotolean{
+    max-width: 70%;
+    height: auto;
+}
+.fotoenzo{
+    max-width: 47%;
+    height: auto;
+}
+.fototobias{
+    max-width: 70%;
+    height: auto;
+}
+.lean{
+    float: left;
+    width:25%;
+    text-align: center;
+}
+.centrar{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enzo{
+    float: left;
+    width:52%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.tobias{
+    float: right;
+    width:25%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+img{
+    padding: 2px;
+    background-color: black;
+    border-radius: 40px;
 }

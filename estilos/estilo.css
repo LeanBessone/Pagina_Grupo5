@@ -10,7 +10,7 @@ header {
   display: flex;
   width: auto;
   justify-content: center;
-  background: #2b2d42;
+  background: black;
 }
 .menu {
   list-style: none;

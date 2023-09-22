@@ -58,44 +58,26 @@ a {
   font-size: 60px;
   text-align: center;
 }
-
-.fotolean {
-  max-width: 70%;
+.imagen{
+  max-width: 75%;
   height: auto;
 }
-.fotoenzo {
-  max-width: 47%;
+.imagen2{
+  max-width: 100%;
   height: auto;
 }
-.fototobias {
-  max-width: 70%;
-  height: auto;
-}
-.lean {
-  float: left;
-  width: 25%;
+.miembro{
+  flex: 1;
+  margin: 5px;
   text-align: center;
 }
-.centrar {
-  margin-top: 50px;
+.integrantes {
+  margin: 30px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content:space-between;
 }
-.enzo {
-  float: left;
-  width: 50%;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-}
-.tobias {
-  float: right;
-  width: 25%;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-}
+
 img {
   padding: 2px;
   background-color: black;
@@ -129,11 +111,12 @@ img {
     width: 100%;
     text-align: justify;
   }
-  .centrar {
+  .integrantes {
     flex-direction: column;
   }
   .presentacion {
     margin-top: 50px;
+    margin-right: 10px;
     flex-direction: column;
     text-align: left;
     align-items: center;
@@ -142,16 +125,18 @@ img {
   .item {
     margin: 40px 0;
   }
-  .centrar{
-    margin: 0;
+  .imagen{
+    max-width: 75%;
+    height: auto;
   }
-  .lean{
-    width: 50%;
+  .imagen2{
+    max-width: 75%;
+    height: auto;
   }
-  .enzo{
-    width: 75%;
-  }
-  .tobias{
-    width: 50%;
+  .miembro{
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
   }
 }

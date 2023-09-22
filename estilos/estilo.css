@@ -55,8 +55,8 @@ a {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  font-size: 60px;
   text-align: center;
-  font-size: 40px;
 }
 
 .fotolean {
@@ -120,7 +120,11 @@ img {
   .datos-imagen {
     margin-bottom: 10px;
   }
-
+  .construccion{
+    display: flex;
+    font-size: 40px;
+    margin: 5px;
+  }
   .texto {
     width: 100%;
     text-align: justify;

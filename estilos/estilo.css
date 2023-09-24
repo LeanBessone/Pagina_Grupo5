@@ -12,6 +12,10 @@ header {
   justify-content: center;
   background: black;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 .menu {
   list-style: none;
   display: flex;
@@ -33,10 +37,6 @@ header {
 .botones:hover {
   background: #ef233c;
 }
-a {
-  text-decoration: none;
-  color: black;
-}
 .presentacion {
   margin-top: 150px;
   display: flex;
@@ -49,14 +49,21 @@ a {
   margin: 30px 0;
 }
 .construccion {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  margin-top: 20%;
   font-size: 60px;
   text-align: center;
+}
+.proyecto{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  font-size: large;
+}
+.proyecto-contenido{
+  font-size:20px;
+}
+.item2{
+  margin: 40px 0;
 }
 .imagen{
   max-width: 75%;
@@ -104,6 +111,7 @@ img {
   }
   .construccion{
     display: flex;
+    justify-content: center;
     font-size: 40px;
     margin: 5px;
   }

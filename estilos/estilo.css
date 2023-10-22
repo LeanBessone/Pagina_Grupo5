@@ -84,6 +84,10 @@ a {
   align-items: center;
   justify-content:space-between;
 }
+.avances-contenido{
+  margin-left: 200px;
+  font-size: 20px;
+}
 
 img {
   padding: 2px;

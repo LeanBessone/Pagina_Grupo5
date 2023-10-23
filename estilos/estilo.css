@@ -85,7 +85,8 @@ a {
   justify-content:space-between;
 }
 .avances-contenido{
-  margin-left: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
   font-size: 20px;
 }
 
@@ -93,6 +94,10 @@ img {
   padding: 2px;
   background-color: black;
   border-radius: 40px;
+}
+.diagrama{
+  padding: 0;
+  border-radius: 0px;
 }
 
 @media screen and (max-width: 1000px) {
